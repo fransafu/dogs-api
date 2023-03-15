@@ -33,7 +33,7 @@ const user = (sequelize, DataTypes) => {
   });
 
   User.associate = models => {
-    User.belongsTo(models.Rol, { as: 'rol', foreignKey: 'rolId' })
+    User.belongsTo(models.Rol, { as: 'Rol', foreignKey: 'rolId' })
   }
 
   return User
