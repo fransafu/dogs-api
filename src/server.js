@@ -9,7 +9,7 @@ sequelize
   .sync()
   .then(() => {
     app.listen(PORT, err => {
-      if (!err) {
+      if (err) {
         console.error('run server failed. ', err)
         throw err
       }
