@@ -24,7 +24,7 @@ const login = async (username, password, salt = 0) => {
     return jwt.sign({
         username: user.get().username,
         email: user.get().email,
-    }, process.env.SECRET_JWT);
+    }, process.env.SECRET_JWT, { expiresIn: '5h' });
 };
 
 const register = async (user) => {
