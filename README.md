@@ -3,7 +3,7 @@
 # Getting started
 
 You can use it in the following link:
-* [dogs-api-production.up.railway.app](dogs-api-production.up.railway.app)
+* [https://dogs-api-production.up.railway.app/](https://dogs-api-production.up.railway.app/)
 
 If you want to run the api locally
 
