@@ -1,5 +1,6 @@
 const express = require('express');
-const breedController = require('../controllers/breedController');
+
+const breedController = require('../controllers/breed.controller');
 
 const router = express.Router();
 

@@ -1,4 +1,4 @@
-const breedService = require('../services/breedService');
+const breedService = require('../services/breed.service');
 
 module.exports = {
     list: async (req, res) => {
